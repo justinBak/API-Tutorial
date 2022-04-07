@@ -1,0 +1,61 @@
+https://marvel.com/api
+{
+    "id": 1,
+    "featured": "https://marvel.com/api/featured/",
+    "superheroes": "https://marvel.com/api/superheroes/",
+    "abilities": "https://marvel.com/api/abilities/",
+    "location": "https://marvel.com/api/location/",
+    "availability": "https://marvel.com/api/availability/",
+    "gender": "https://marvel.com/api/gender/"
+}
+
+GET: https://marvel.com/api/superheroes/
+[
+  {
+    "count": 4259,
+    "next": "https://pokeapi.co/api/superheroes/?offset=0&limit=10",
+    "azList": "https://marvel.com/api/superheroes/azList"
+    "featured": [
+      {
+        "name": "Ant Man",
+        "url": "https://marvel.com/api/superheroes/11/"
+      },
+      {
+        "name": "Ajak",
+        "url": "https://marvel.com/api/superheroes/13/"
+      },
+      {
+        "name": "Black Panther",
+        "url": "https://marvel.com/api/superheroes/30/"
+      },
+      {
+        "name": "Black Widow",
+        "url": "https://marvel.com/api/superheroes/38/"
+      },
+      {
+        "name": "Captain America",
+        "url": "https://marvel.com/api/superheroes/57/"
+      },
+      {
+        "name": "Daredevil",
+        "url": "https://marvel.com/api/superheroes/85/"
+      },
+      {
+        "name": "Hulk",
+        "url": "https://marvel.com/api/superheroes/122/"
+      },
+      {
+        "name": "Iron Man",
+        "url": "https://marvel.com/api/superheroes/201/"
+      },
+      {
+        "name": "Spiderman",
+        "url": "https://marvel.com/api/superheroes/2062/"
+      },
+      {
+        "name": "Wolverine",
+        "url": "https://marvel.com/api/superheroes/4211/"
+      }
+    ]
+  }
+]
